@@ -15,6 +15,7 @@ import {
   Sparkles,
   Target,
   TrendingUp,
+  Trophy,
   Zap,
 } from "lucide-react";
 import {
