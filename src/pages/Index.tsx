@@ -411,8 +411,8 @@ const Index = () => {
         </section>
 
         {/* Tabs */}
-        <section className="mt-8">
-          <Tabs defaultValue="scores" className="w-full">
+        <section className="mt-8" id="main-tabs">
+          <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
             <TabsList className="h-auto w-full justify-start gap-1 rounded-xl border border-border/60 bg-card p-1 shadow-card-soft">
               {[
                 { value: "scores", label: "Provider Scores", icon: BarChart3 },
