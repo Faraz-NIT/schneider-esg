@@ -15,6 +15,7 @@ import {
   Sparkles,
   Target,
   TrendingUp,
+  Trophy,
   Zap,
 } from "lucide-react";
 import {
@@ -68,6 +69,7 @@ import { Toggle } from "@/components/ui/toggle";
 import { KpiCard } from "@/components/KpiCard";
 import NLPTab from "@/components/NLPTab";
 import ReportsTab from "@/components/ReportsTab";
+import SSITab from "@/components/SSITab";
 import { ProviderCard } from "@/components/ProviderCard";
 import { SchneiderLogo } from "@/components/SchneiderLogo";
 import mcgillLogo from "@/assets/mcgill-logo.png";
@@ -414,6 +416,7 @@ const Index = () => {
                 { value: "drivers", label: "Why Scores Differ", icon: Layers },
                 { value: "history", label: "Score History", icon: LineChartIcon },
                 { value: "nlp", label: "NLP Insights", icon: Brain },
+                { value: "ssi", label: "SSI 2025", icon: Trophy },
                 { value: "reports", label: "Reports", icon: FileText },
                 { value: "data", label: "Data Notes", icon: Database },
               ].map((t) => (
@@ -766,6 +769,11 @@ const Index = () => {
             {/* === NLP TAB === */}
             <TabsContent value="nlp" className="mt-6">
               <NLPTab />
+            </TabsContent>
+
+            {/* === SSI 2025 TAB === */}
+            <TabsContent value="ssi" className="mt-6">
+              <SSITab />
             </TabsContent>
 
             {/* === REPORTS TAB === */}

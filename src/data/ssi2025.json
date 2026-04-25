@@ -1,0 +1,87 @@
+{
+  "title": "Schneider Sustainability Impact (SSI) — Q4 2025 Results",
+  "cycle": "2021–2025",
+  "overall_score": { "baseline": 3, "actual": 8.86, "target": 8.88, "ambition": 10 },
+  "headline_metrics": [
+    { "label": "CO₂ saved & avoided for customers", "value": "862M", "unit": "tonnes", "context": "vs. 800M target — exceeded ambition" },
+    { "label": "Strategic suppliers under Decent Work program", "value": "98", "unit": "%", "context": "since 2021 launch" },
+    { "label": "People given access to clean electricity", "value": "61.7M", "unit": "people", "context": "vs. 50M ambition (since 2009)" },
+    { "label": "People trained in energy management", "value": "1.09M", "unit": "people", "context": "vs. 1M ambition (since 2009)" }
+  ],
+  "pillars": [
+    {
+      "name": "Climate",
+      "color": "E",
+      "kpis": [
+        { "id": 1, "name": "Schneider Impact revenues", "baseline": 70, "actual": 75, "target": 75, "ambition": 80, "unit": "%" },
+        { "id": 2, "name": "Customer CO₂ saved & avoided", "baseline": 263, "actual": 862, "target": 800, "ambition": 800, "unit": "Mt" },
+        { "id": 3, "name": "Top-1000 suppliers CO₂ reduction", "baseline": 0, "actual": 56, "target": 49, "ambition": 50, "unit": "%" }
+      ]
+    },
+    {
+      "name": "Resources",
+      "color": "E",
+      "kpis": [
+        { "id": 4, "name": "Green material content in products", "baseline": 7, "actual": 48, "target": 50, "ambition": 50, "unit": "%" },
+        { "id": 5, "name": "Single-use plastic-free packaging", "baseline": 13, "actual": 85, "target": 90, "ambition": 100, "unit": "%" }
+      ]
+    },
+    {
+      "name": "Trust",
+      "color": "G",
+      "kpis": [
+        { "id": 6, "name": "Strategic suppliers — decent work", "baseline": 1, "actual": 98, "target": 96, "ambition": 100, "unit": "%" },
+        { "id": 7, "name": "Confidence to report unethical conduct", "baseline": 81, "actual": 85, "target": 84, "ambition": 91, "unit": "%" }
+      ]
+    },
+    {
+      "name": "Equal",
+      "color": "S",
+      "kpis": [
+        { "id": 8, "name": "Gender diversity — hiring", "baseline": 41, "actual": 37, "target": 45, "ambition": 50, "unit": "%" },
+        { "id": 8, "name": "Gender diversity — front-line mgmt", "baseline": 23, "actual": 32, "target": 35, "ambition": 40, "unit": "%" },
+        { "id": 8, "name": "Gender diversity — leadership", "baseline": 24, "actual": 32, "target": 30, "ambition": 30, "unit": "%" },
+        { "id": 9, "name": "Access to green electricity", "baseline": 30, "actual": 61.7, "target": 60, "ambition": 50, "unit": "M people" }
+      ]
+    },
+    {
+      "name": "Generations",
+      "color": "S",
+      "kpis": [
+        { "id": 10, "name": "Hiring opportunities for early-career", "baseline": 1, "actual": 1.75, "target": 1.8, "ambition": 2, "unit": "x" },
+        { "id": 11, "name": "People trained in energy management", "baseline": 0.28, "actual": 1.09, "target": 1, "ambition": 1, "unit": "M" }
+      ]
+    },
+    {
+      "name": "Local",
+      "color": "S",
+      "kpis": [
+        { "id": 12, "name": "Country presidents with local commitments", "baseline": 0, "actual": 100, "target": 100, "ambition": 100, "unit": "%" }
+      ]
+    }
+  ],
+  "recognitions": [
+    "#1 World's Most Sustainable Company — Corporate Knights Global 100 (2025)",
+    "#1 World's Most Sustainable Company — TIME & Statista (2025)",
+    "S&P Global CSA: 85/100, ranked 2nd in industry group",
+    "CDP Climate Change: A rating (15+ consecutive years)",
+    "#1 Gartner Top 25 Supply Chain (10 consecutive years)",
+    "Equileap Gold Seal — Capital Goods Gender Equality 2025",
+    "Glassdoor Best Places to Work 2025 (US & UK)"
+  ],
+  "highlights": [
+    { "pillar": "Climate", "text": "Partnering for Sustainability initiative — empowering SME decarbonization — recognized by SB COP30 Awards" },
+    { "pillar": "Climate", "text": "GM AirSeT launched — SF₆-free primary switchgear, decarbonizing electrical systems" },
+    { "pillar": "Climate", "text": "SE Advisory Services partners with Marks & Spencer on supply-chain decarbonization" },
+    { "pillar": "Resources", "text": "176 waste-to-resources sites; 100% of sites adopted local biodiversity programs" },
+    { "pillar": "Resources", "text": "AVEVA Unified Operations Center deployed at Diriyah Gate, Saudi Arabia" },
+    { "pillar": "Trust", "text": "SE Advisory Services launched as global consulting practice for energy/sustainability/digitalization" },
+    { "pillar": "Equal", "text": "Solar electrification project at Barangay Laiban rural school, Philippines — 1,000+ students" },
+    { "pillar": "Generations", "text": "Youth Education & Entrepreneurship Program — Gold Award at Emirates Energy Award" },
+    { "pillar": "Generations", "text": "Senior Talent Program — 2× Bronze at Brandon Hall Group Excellence Awards" },
+    { "pillar": "Local", "text": "190+ women electricians trained across Chile, Peru, Bolivia in 2025" },
+    { "pillar": "Local", "text": "90,000+ employee volunteering days since 2017" }
+  ],
+  "source": "Schneider Sustainability Impact Q4 2025 Results (Schneider Electric, 2025)",
+  "pdf": "schneider-ssi-q4-2025.pdf"
+}

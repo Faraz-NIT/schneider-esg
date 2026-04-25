@@ -36,6 +36,22 @@ export default function ReportsTab() {
         </div>
       </Card>
 
+      {/* Special report card */}
+      <Card className="p-5 border-primary/30 bg-gradient-to-br from-primary/5 to-background flex flex-col md:flex-row md:items-center gap-4 justify-between">
+        <div>
+          <Badge className="mb-2 bg-primary/15 text-primary border-primary/30">Special Report · Q4 2025</Badge>
+          <div className="text-lg font-bold tracking-tight">Schneider Sustainability Impact (SSI) — 2021–2025 close-out</div>
+          <p className="text-sm text-muted-foreground mt-1">
+            Final scorecard of the 11 SSI KPIs. Composite score 8.86/10 vs 8.88/10 target.
+          </p>
+        </div>
+        <Button asChild>
+          <a href="/reports/schneider-ssi-q4-2025.pdf" download>
+            <Download className="mr-2 h-4 w-4" /> Download PDF
+          </a>
+        </Button>
+      </Card>
+
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {years.map((year) => {
           const file = PDF_FILES[year];
