@@ -66,6 +66,7 @@ import { Toggle } from "@/components/ui/toggle";
 
 import { KpiCard } from "@/components/KpiCard";
 import NLPTab from "@/components/NLPTab";
+import ReportsTab from "@/components/ReportsTab";
 import { ProviderCard } from "@/components/ProviderCard";
 import { SchneiderLogo } from "@/components/SchneiderLogo";
 import mcgillLogo from "@/assets/mcgill-logo.png";
@@ -408,6 +409,7 @@ const Index = () => {
                 { value: "drivers", label: "Why Scores Differ", icon: Layers },
                 { value: "history", label: "Score History", icon: LineChartIcon },
                 { value: "nlp", label: "NLP Insights", icon: Brain },
+                { value: "reports", label: "Reports", icon: FileText },
                 { value: "data", label: "Data Notes", icon: Database },
               ].map((t) => (
                 <TabsTrigger
