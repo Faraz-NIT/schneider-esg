@@ -764,6 +764,11 @@ const Index = () => {
               <NLPTab />
             </TabsContent>
 
+            {/* === REPORTS TAB === */}
+            <TabsContent value="reports" className="mt-6">
+              <ReportsTab />
+            </TabsContent>
+
             {/* === DATA NOTES TAB === */}
             <TabsContent value="data" className="mt-6 space-y-6">
               <Card className="border-border/60 p-6 shadow-card-soft">
