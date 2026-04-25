@@ -249,18 +249,19 @@ const Index = () => {
             <div className="max-w-3xl animate-fade-up">
               <Badge className="border-primary/40 bg-primary/15 font-bold uppercase tracking-[0.18em] text-primary-glow hover:bg-primary/20">
                 <Zap className="mr-1.5 h-3 w-3" />
-                Energy Management · ESG Divergence
+                Schneider Electric · ESG Intelligence Dashboard
               </Badge>
               <h1 className="mt-5 text-4xl font-extrabold leading-[1.05] tracking-tight md:text-6xl">
-                Where ratings agree.<br />
+                Schneider's ESG story,<br />
                 <span className="bg-gradient-to-r from-primary-glow to-white bg-clip-text text-transparent">
-                  Where they don't.
+                  told by data and language.
                 </span>
               </h1>
               <p className="mt-5 max-w-2xl text-base text-white/80 md:text-lg">
-                Compare Schneider Electric's ESG signal across the four providers that move
-                capital — through an electrification & sustainability lens. See the spread,
-                surface the methodology gaps, and act on what's material.
+                One dashboard for Schneider Electric's sustainability signal — provider scores from
+                MSCI, Sustainalytics, CDP and S&P CSA side-by-side, plus deep NLP analysis of five
+                years of sustainability reports. See where the numbers agree, where the narrative
+                drifts, and what the latest SSI 2025 results actually deliver.
               </p>
 
               <div className="mt-7 flex flex-wrap gap-2">
