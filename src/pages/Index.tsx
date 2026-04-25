@@ -65,7 +65,7 @@ import { Slider } from "@/components/ui/slider";
 import { Toggle } from "@/components/ui/toggle";
 
 import { KpiCard } from "@/components/KpiCard";
-import { NLPTab } from "@/components/NLPTab";
+import NLPTab from "@/components/NLPTab";
 import { ProviderCard } from "@/components/ProviderCard";
 import { SchneiderLogo } from "@/components/SchneiderLogo";
 import mcgillLogo from "@/assets/mcgill-logo.png";
