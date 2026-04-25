@@ -1,0 +1,1046 @@
+{
+  "reports": [
+    {
+      "year": 2020,
+      "overall": {
+        "sentiment": 0.815,
+        "tone_summary": "Predominantly affirmative, target-driven and forward-looking.",
+        "headline": "Pandemic-era report; foundational climate ambition with new SBTi-aligned trajectory."
+      },
+      "pillar_sentiment": {
+        "environmental": 0.864,
+        "social": 0.779,
+        "governance": 0.879
+      },
+      "disclosure_quality": {
+        "specificity": 100,
+        "quantification": 100,
+        "assurance": 96,
+        "forward_looking": 100,
+        "balance": 37
+      },
+      "greenwashing_signals": [
+        {
+          "signal": "Vague aspirational language",
+          "severity": "low",
+          "count": 15,
+          "evidence_quote": "...e that bridges sustainability and progress for all, exists today. and we remain committed to raising the bar for ourselves, our customers and partners, and the communities...",
+          "rationale": "Pattern occurs 15 times across the report."
+        },
+        {
+          "signal": "Unquantified 'green' claims",
+          "severity": "low",
+          "count": 10,
+          "evidence_quote": "...the united nations sustainable development goals to accelerate us toward a more sustainable future. taking a broader view on sustainability, our new goals will include empowering...",
+          "rationale": "Pattern occurs 10 times across the report."
+        },
+        {
+          "signal": "Distant-target reliance",
+          "severity": "low",
+          "count": 2,
+          "evidence_quote": "...long-term climate objectives: become carbon neutral in our end-to-end footprint by 2040 and engage with suppliers toward a net-zero co2 supply chain by 2050 w e're dec...",
+          "rationale": "Pattern occurs 2 times across the report."
+        },
+        {
+          "signal": "Selective superlatives",
+          "severity": "low",
+          "count": 6,
+          "evidence_quote": "...ations company overviewresourcesclimateintroduction trust paving the way as the most sustainable corporation t his past year exposed just how vulnerable we are to unexpected na...",
+          "rationale": "Pattern occurs 6 times across the report."
+        },
+        {
+          "signal": "Offsetting / neutrality hedge",
+          "severity": "low",
+          "count": 10,
+          "evidence_quote": "...e is on | schneider electric sustainability report 2020 \u2013 2021 \u2022 9 we\u2019ll become carbon neutral in our operations we\u2019re on track to meet our validated 1.5 \u00b0c science- based ta...",
+          "rationale": "Pattern occurs 10 times across the report."
+        },
+        {
+          "signal": "Hedging language",
+          "severity": "low",
+          "count": 8,
+          "evidence_quote": "...communities. through schneider electric\u2019s work with our suppliers, the program aims to democratize access to renewable energy, and accelerate its use with our supplie...",
+          "rationale": "Pattern occurs 8 times across the report."
+        }
+      ],
+      "topics": [
+        {
+          "topic": "Decarbonization & Climate",
+          "weight": 20.1,
+          "pillar": "E"
+        },
+        {
+          "topic": "Energy & Renewables",
+          "weight": 8.4,
+          "pillar": "E"
+        },
+        {
+          "topic": "Circular Economy",
+          "weight": 6.4,
+          "pillar": "E"
+        },
+        {
+          "topic": "Biodiversity & Nature",
+          "weight": 4.6,
+          "pillar": "E"
+        },
+        {
+          "topic": "Supply Chain",
+          "weight": 9.4,
+          "pillar": "G"
+        },
+        {
+          "topic": "Diversity, Equity & Inclusion",
+          "weight": 9.7,
+          "pillar": "S"
+        },
+        {
+          "topic": "Health & Safety",
+          "weight": 3.6,
+          "pillar": "S"
+        },
+        {
+          "topic": "Talent & People",
+          "weight": 18.3,
+          "pillar": "S"
+        },
+        {
+          "topic": "Governance & Ethics",
+          "weight": 4.8,
+          "pillar": "G"
+        },
+        {
+          "topic": "Human Rights",
+          "weight": 2.6,
+          "pillar": "S"
+        },
+        {
+          "topic": "Community & Access",
+          "weight": 10.1,
+          "pillar": "S"
+        },
+        {
+          "topic": "Digital & Cybersecurity",
+          "weight": 2.0,
+          "pillar": "G"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "sustainability",
+          "weight": 100
+        },
+        {
+          "term": "energy",
+          "weight": 93
+        },
+        {
+          "term": "trust",
+          "weight": 51
+        },
+        {
+          "term": "equal",
+          "weight": 49
+        },
+        {
+          "term": "employees",
+          "weight": 45
+        },
+        {
+          "term": "overviewresourcesclimateintroduction",
+          "weight": 44
+        },
+        {
+          "term": "global",
+          "weight": 44
+        },
+        {
+          "term": "people",
+          "weight": 43
+        },
+        {
+          "term": "program",
+          "weight": 42
+        },
+        {
+          "term": "access",
+          "weight": 42
+        },
+        {
+          "term": "localgenerations",
+          "weight": 35
+        },
+        {
+          "term": "suppliers",
+          "weight": 34
+        },
+        {
+          "term": "sustainable",
+          "weight": 33
+        },
+        {
+          "term": "through",
+          "weight": 33
+        },
+        {
+          "term": "targets",
+          "weight": 32
+        },
+        {
+          "term": "million",
+          "weight": 31
+        },
+        {
+          "term": "electricity",
+          "weight": 30
+        },
+        {
+          "term": "green",
+          "weight": 28
+        }
+      ],
+      "key_metrics": [
+        {
+          "metric": "Renewable electricity share",
+          "value": "100%",
+          "pillar": "E"
+        },
+        {
+          "metric": "Renewable electricity share",
+          "value": "80%",
+          "pillar": "E"
+        },
+        {
+          "metric": "People impacted",
+          "value": "50 million",
+          "pillar": "S"
+        },
+        {
+          "metric": "People impacted",
+          "value": "80 million",
+          "pillar": "S"
+        },
+        {
+          "metric": "Women representation",
+          "value": "1%",
+          "pillar": "S"
+        }
+      ],
+      "doc_stats": {
+        "characters": 124637,
+        "words": 18683
+      }
+    },
+    {
+      "year": 2021,
+      "overall": {
+        "sentiment": 0.477,
+        "tone_summary": "Predominantly affirmative, target-driven and forward-looking.",
+        "headline": "Schneider Sustainability Impact (SSI) program scaled; CDP A-list and #1 Corporate Knights ranking."
+      },
+      "pillar_sentiment": {
+        "environmental": 0.488,
+        "social": 0.476,
+        "governance": 0.385
+      },
+      "disclosure_quality": {
+        "specificity": 100,
+        "quantification": 54,
+        "assurance": 100,
+        "forward_looking": 77,
+        "balance": 100
+      },
+      "greenwashing_signals": [
+        {
+          "signal": "Vague aspirational language",
+          "severity": "medium",
+          "count": 96,
+          "evidence_quote": "...mply with the highest ethical work standards and best practices. as ever, we\u2019re committed to helping resolve social problems, and to promoting equal opportunities for all o...",
+          "rationale": "Pattern occurs 96 times across the report."
+        },
+        {
+          "signal": "Unquantified 'green' claims",
+          "severity": "low",
+          "count": 16,
+          "evidence_quote": "...impact company enabling a sustainable future 2021 sustainable development report as an impact company, we are convinced that...",
+          "rationale": "Pattern occurs 16 times across the report."
+        },
+        {
+          "signal": "Distant-target reliance",
+          "severity": "low",
+          "count": 24,
+          "evidence_quote": "...3.4 decarbonizing our operations by 2030 80 3.5 decarbonizing our supply chain by 2050 84 4 being efficient with resources 88 4.1 preserving the planet and its biodiv...",
+          "rationale": "Pattern occurs 24 times across the report."
+        },
+        {
+          "signal": "Selective superlatives",
+          "severity": "low",
+          "count": 12,
+          "evidence_quote": "...tool www.se.comschneider electric4 2021 sustainable development report world\u2019s most sustainable corporation in 2021 for well over a decade, sustainability has been at the hear...",
+          "rationale": "Pattern occurs 12 times across the report."
+        },
+        {
+          "signal": "Offsetting / neutrality hedge",
+          "severity": "medium",
+          "count": 58,
+          "evidence_quote": "...rding employees for performance for our ecosystem climate carbon pledge towards net-zero co2 emissions in our operations by 2030 in our value chain by 2050 biodiversity...",
+          "rationale": "Pattern occurs 58 times across the report."
+        },
+        {
+          "signal": "Hedging language",
+          "severity": "high",
+          "count": 137,
+          "evidence_quote": "...powerful tool to move the group forward on its major challenges. four scenarios may emerge from one ssi to the next: \u2022 improvement plans are maintained in the baro...",
+          "rationale": "Pattern occurs 137 times across the report."
+        }
+      ],
+      "topics": [
+        {
+          "topic": "Decarbonization & Climate",
+          "weight": 16.1,
+          "pillar": "E"
+        },
+        {
+          "topic": "Energy & Renewables",
+          "weight": 4.7,
+          "pillar": "E"
+        },
+        {
+          "topic": "Circular Economy",
+          "weight": 6.5,
+          "pillar": "E"
+        },
+        {
+          "topic": "Biodiversity & Nature",
+          "weight": 5.2,
+          "pillar": "E"
+        },
+        {
+          "topic": "Supply Chain",
+          "weight": 9.4,
+          "pillar": "G"
+        },
+        {
+          "topic": "Diversity, Equity & Inclusion",
+          "weight": 7.1,
+          "pillar": "S"
+        },
+        {
+          "topic": "Health & Safety",
+          "weight": 8.7,
+          "pillar": "S"
+        },
+        {
+          "topic": "Talent & People",
+          "weight": 20.6,
+          "pillar": "S"
+        },
+        {
+          "topic": "Governance & Ethics",
+          "weight": 10.9,
+          "pillar": "G"
+        },
+        {
+          "topic": "Human Rights",
+          "weight": 1.6,
+          "pillar": "S"
+        },
+        {
+          "topic": "Community & Access",
+          "weight": 4.6,
+          "pillar": "S"
+        },
+        {
+          "topic": "Digital & Cybersecurity",
+          "weight": 4.5,
+          "pillar": "G"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "energy",
+          "weight": 100
+        },
+        {
+          "term": "employees",
+          "weight": 98
+        },
+        {
+          "term": "development",
+          "weight": 74
+        },
+        {
+          "term": "sustainability",
+          "weight": 74
+        },
+        {
+          "term": "sustainable",
+          "weight": 67
+        },
+        {
+          "term": "impact",
+          "weight": 64
+        },
+        {
+          "term": "business",
+          "weight": 60
+        },
+        {
+          "term": "global",
+          "weight": 59
+        },
+        {
+          "term": "program",
+          "weight": 55
+        },
+        {
+          "term": "climate",
+          "weight": 52
+        },
+        {
+          "term": "sites",
+          "weight": 51
+        },
+        {
+          "term": "safety",
+          "weight": 50
+        },
+        {
+          "term": "suppliers",
+          "weight": 48
+        },
+        {
+          "term": "management",
+          "weight": 47
+        },
+        {
+          "term": "performance",
+          "weight": 45
+        },
+        {
+          "term": "local",
+          "weight": 44
+        },
+        {
+          "term": "environmental",
+          "weight": 44
+        },
+        {
+          "term": "products",
+          "weight": 43
+        }
+      ],
+      "key_metrics": [
+        {
+          "metric": "Emissions reduction",
+          "value": "35%",
+          "pillar": "E"
+        },
+        {
+          "metric": "Renewable electricity share",
+          "value": "100%",
+          "pillar": "E"
+        },
+        {
+          "metric": "Renewable electricity share",
+          "value": "82%",
+          "pillar": "E"
+        },
+        {
+          "metric": "People impacted",
+          "value": "100 million",
+          "pillar": "S"
+        },
+        {
+          "metric": "People impacted",
+          "value": "800 million",
+          "pillar": "S"
+        },
+        {
+          "metric": "People impacted",
+          "value": "50 million",
+          "pillar": "S"
+        },
+        {
+          "metric": "People impacted",
+          "value": "40 million",
+          "pillar": "S"
+        },
+        {
+          "metric": "People impacted",
+          "value": "30 million",
+          "pillar": "S"
+        },
+        {
+          "metric": "Women representation",
+          "value": "4%",
+          "pillar": "S"
+        },
+        {
+          "metric": "tCO2 figure",
+          "value": "079",
+          "pillar": "E"
+        }
+      ],
+      "doc_stats": {
+        "characters": 813594,
+        "words": 120591
+      }
+    },
+    {
+      "year": 2022,
+      "overall": {
+        "sentiment": 0.473,
+        "tone_summary": "Predominantly affirmative, target-driven and forward-looking.",
+        "headline": "Net-Zero Standard validation by SBTi; deeper supplier decarbonization (Zero Carbon Project)."
+      },
+      "pillar_sentiment": {
+        "environmental": 0.449,
+        "social": 0.477,
+        "governance": 0.381
+      },
+      "disclosure_quality": {
+        "specificity": 100,
+        "quantification": 53,
+        "assurance": 100,
+        "forward_looking": 64,
+        "balance": 100
+      },
+      "greenwashing_signals": [
+        {
+          "signal": "Vague aspirational language",
+          "severity": "medium",
+          "count": 97,
+          "evidence_quote": "...forcing our resilience to upheaval and disruption. as an impact company, we are committed to bringing everyone along, employees, customers and suppliers, and working more c...",
+          "rationale": "Pattern occurs 97 times across the report."
+        },
+        {
+          "signal": "Unquantified 'green' claims",
+          "severity": "low",
+          "count": 17,
+          "evidence_quote": "...ments to move forward collectively 23 1.9 meas uring our contribution to a more sustainable world 28 1.1 0 key ex ternal frameworks and esg ratings 33 2 driving responsible busi...",
+          "rationale": "Pattern occurs 17 times across the report."
+        },
+        {
+          "signal": "Distant-target reliance",
+          "severity": "low",
+          "count": 19,
+          "evidence_quote": "...g the group\u2019s operations by 2030 87 3.6 deca rbonizing the group\u2019s supply chain by 2050 93 3.7 deca rbonizing the group\u2019s downstream emissions 98 3.8 enab ling custome...",
+          "rationale": "Pattern occurs 19 times across the report."
+        },
+        {
+          "signal": "Selective superlatives",
+          "severity": "low",
+          "count": 9,
+          "evidence_quote": "...t rating in its industry (electric components) out of 182 companies. global 100 most sustainable corporations schneider electric was featured on corporate knights\u2019 global 100 l...",
+          "rationale": "Pattern occurs 9 times across the report."
+        },
+        {
+          "signal": "Offsetting / neutrality hedge",
+          "severity": "medium",
+          "count": 70,
+          "evidence_quote": "...3.2 schn eider electric\u2019s greenhouse gas footprint 82 3.3 schn eider electric\u2019s net-zero commitment 84 3.4 inve sting to achieve the group\u2019s climate strategy and vision...",
+          "rationale": "Pattern occurs 70 times across the report."
+        },
+        {
+          "signal": "Hedging language",
+          "severity": "high",
+          "count": 205,
+          "evidence_quote": "...have done at schneider electric, makes more sense than ever. my combined remit aims to ensure that sustainability drives all corporate decision-making and generates m...",
+          "rationale": "Pattern occurs 205 times across the report."
+        }
+      ],
+      "topics": [
+        {
+          "topic": "Decarbonization & Climate",
+          "weight": 19.7,
+          "pillar": "E"
+        },
+        {
+          "topic": "Energy & Renewables",
+          "weight": 5.0,
+          "pillar": "E"
+        },
+        {
+          "topic": "Circular Economy",
+          "weight": 6.4,
+          "pillar": "E"
+        },
+        {
+          "topic": "Biodiversity & Nature",
+          "weight": 6.8,
+          "pillar": "E"
+        },
+        {
+          "topic": "Supply Chain",
+          "weight": 10.1,
+          "pillar": "G"
+        },
+        {
+          "topic": "Diversity, Equity & Inclusion",
+          "weight": 6.4,
+          "pillar": "S"
+        },
+        {
+          "topic": "Health & Safety",
+          "weight": 6.9,
+          "pillar": "S"
+        },
+        {
+          "topic": "Talent & People",
+          "weight": 18.7,
+          "pillar": "S"
+        },
+        {
+          "topic": "Governance & Ethics",
+          "weight": 9.9,
+          "pillar": "G"
+        },
+        {
+          "topic": "Human Rights",
+          "weight": 1.6,
+          "pillar": "S"
+        },
+        {
+          "topic": "Community & Access",
+          "weight": 4.5,
+          "pillar": "S"
+        },
+        {
+          "topic": "Digital & Cybersecurity",
+          "weight": 4.2,
+          "pillar": "G"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "energy",
+          "weight": 100
+        },
+        {
+          "term": "employees",
+          "weight": 94
+        },
+        {
+          "term": "sustainable",
+          "weight": 91
+        },
+        {
+          "term": "development",
+          "weight": 90
+        },
+        {
+          "term": "sustainability",
+          "weight": 62
+        },
+        {
+          "term": "program",
+          "weight": 60
+        },
+        {
+          "term": "impact",
+          "weight": 60
+        },
+        {
+          "term": "global",
+          "weight": 57
+        },
+        {
+          "term": "emissions",
+          "weight": 57
+        },
+        {
+          "term": "suppliers",
+          "weight": 53
+        },
+        {
+          "term": "business",
+          "weight": 53
+        },
+        {
+          "term": "sites",
+          "weight": 49
+        },
+        {
+          "term": "climate",
+          "weight": 48
+        },
+        {
+          "term": "products",
+          "weight": 47
+        },
+        {
+          "term": "performance",
+          "weight": 45
+        },
+        {
+          "term": "risks",
+          "weight": 44
+        },
+        {
+          "term": "carbon",
+          "weight": 44
+        },
+        {
+          "term": "management",
+          "weight": 43
+        }
+      ],
+      "key_metrics": [
+        {
+          "metric": "Renewable electricity share",
+          "value": "100%",
+          "pillar": "E"
+        },
+        {
+          "metric": "People impacted",
+          "value": "100 million",
+          "pillar": "S"
+        },
+        {
+          "metric": "People impacted",
+          "value": "5 million",
+          "pillar": "S"
+        },
+        {
+          "metric": "People impacted",
+          "value": "2 million",
+          "pillar": "S"
+        },
+        {
+          "metric": "People impacted",
+          "value": "1 million",
+          "pillar": "S"
+        },
+        {
+          "metric": "People impacted",
+          "value": "50 million",
+          "pillar": "S"
+        },
+        {
+          "metric": "People impacted",
+          "value": "733 million",
+          "pillar": "S"
+        },
+        {
+          "metric": "Women representation",
+          "value": "1%",
+          "pillar": "S"
+        },
+        {
+          "metric": "tCO2 figure",
+          "value": "703",
+          "pillar": "E"
+        },
+        {
+          "metric": "Supplier coverage",
+          "value": "59%",
+          "pillar": "G"
+        }
+      ],
+      "doc_stats": {
+        "characters": 931180,
+        "words": 139363
+      }
+    },
+    {
+      "year": 2023,
+      "overall": {
+        "sentiment": 0.469,
+        "tone_summary": "Predominantly affirmative, target-driven and forward-looking.",
+        "headline": "Industrial Tech narrative; expanded circularity & nature commitments under double materiality."
+      },
+      "pillar_sentiment": {
+        "environmental": 0.459,
+        "social": 0.457,
+        "governance": 0.364
+      },
+      "disclosure_quality": {
+        "specificity": 100,
+        "quantification": 45,
+        "assurance": 100,
+        "forward_looking": 65,
+        "balance": 100
+      },
+      "greenwashing_signals": [
+        {
+          "signal": "Vague aspirational language",
+          "severity": "high",
+          "count": 102,
+          "evidence_quote": "...we work. engaging for impact with all stakeholders as an impact company, we are committed to bringing everyone along \u2013 employees, customers, and suppliers \u2013 and to working...",
+          "rationale": "Pattern occurs 102 times across the report."
+        },
+        {
+          "signal": "Unquantified 'green' claims",
+          "severity": "low",
+          "count": 19,
+          "evidence_quote": "...ic contribution to standardization 29 1.10 measuring our contribution to a more sustainable world 31 1.11 key external frameworks and esg ratings 37 2 driving responsible busine...",
+          "rationale": "Pattern occurs 19 times across the report."
+        },
+        {
+          "signal": "Distant-target reliance",
+          "severity": "low",
+          "count": 16,
+          "evidence_quote": "...g the group\u2019s operations by 2030 101 3.6 decarbonizing the group\u2019s supply chain by 2050 108 3.7 decarbonizing the group\u2019s downstream emissions 113 3.8 enabling custome...",
+          "rationale": "Pattern occurs 16 times across the report."
+        },
+        {
+          "signal": "Selective superlatives",
+          "severity": "low",
+          "count": 11,
+          "evidence_quote": "...sg solutions dow jones sustainabi lity indices corporate knights : a global 100 most sustainable corporation a list 2023 climate rated 2023 by 2023 highlights 6 .13/ 1 0 schnei...",
+          "rationale": "Pattern occurs 11 times across the report."
+        },
+        {
+          "signal": "Offsetting / neutrality hedge",
+          "severity": "medium",
+          "count": 84,
+          "evidence_quote": "...0 3.2 schneider electric\u2019s greenhouse gas footprint 95 3.3 schneider electric\u2019s net-zero commitment 98 3.4 investing to achieve the group\u2019s climate strategy and vision...",
+          "rationale": "Pattern occurs 84 times across the report."
+        },
+        {
+          "signal": "Hedging language",
+          "severity": "high",
+          "count": 239,
+          "evidence_quote": "...sustainability committee), which makes decisions on any corrective actions that may be necessary to reach objectives. the governance, nominations & sustainability...",
+          "rationale": "Pattern occurs 239 times across the report."
+        }
+      ],
+      "topics": [
+        {
+          "topic": "Decarbonization & Climate",
+          "weight": 21.0,
+          "pillar": "E"
+        },
+        {
+          "topic": "Energy & Renewables",
+          "weight": 4.9,
+          "pillar": "E"
+        },
+        {
+          "topic": "Circular Economy",
+          "weight": 5.8,
+          "pillar": "E"
+        },
+        {
+          "topic": "Biodiversity & Nature",
+          "weight": 6.2,
+          "pillar": "E"
+        },
+        {
+          "topic": "Supply Chain",
+          "weight": 9.6,
+          "pillar": "G"
+        },
+        {
+          "topic": "Diversity, Equity & Inclusion",
+          "weight": 6.1,
+          "pillar": "S"
+        },
+        {
+          "topic": "Health & Safety",
+          "weight": 7.5,
+          "pillar": "S"
+        },
+        {
+          "topic": "Talent & People",
+          "weight": 19.3,
+          "pillar": "S"
+        },
+        {
+          "topic": "Governance & Ethics",
+          "weight": 9.2,
+          "pillar": "G"
+        },
+        {
+          "topic": "Human Rights",
+          "weight": 1.6,
+          "pillar": "S"
+        },
+        {
+          "topic": "Community & Access",
+          "weight": 4.5,
+          "pillar": "S"
+        },
+        {
+          "topic": "Digital & Cybersecurity",
+          "weight": 4.2,
+          "pillar": "G"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "development",
+          "weight": 100
+        },
+        {
+          "term": "sustainable",
+          "weight": 99
+        },
+        {
+          "term": "energy",
+          "weight": 96
+        },
+        {
+          "term": "employees",
+          "weight": 95
+        },
+        {
+          "term": "sustainability",
+          "weight": 66
+        },
+        {
+          "term": "global",
+          "weight": 64
+        },
+        {
+          "term": "impact",
+          "weight": 61
+        },
+        {
+          "term": "emissions",
+          "weight": 60
+        },
+        {
+          "term": "business",
+          "weight": 59
+        },
+        {
+          "term": "program",
+          "weight": 59
+        },
+        {
+          "term": "climate",
+          "weight": 54
+        },
+        {
+          "term": "carbon",
+          "weight": 51
+        },
+        {
+          "term": "suppliers",
+          "weight": 51
+        },
+        {
+          "term": "through",
+          "weight": 51
+        },
+        {
+          "term": "sites",
+          "weight": 50
+        },
+        {
+          "term": "risks",
+          "weight": 48
+        },
+        {
+          "term": "environmental",
+          "weight": 48
+        },
+        {
+          "term": "products",
+          "weight": 47
+        }
+      ],
+      "key_metrics": [
+        {
+          "metric": "Renewable electricity share",
+          "value": "100%",
+          "pillar": "E"
+        },
+        {
+          "metric": "People impacted",
+          "value": "50 million",
+          "pillar": "S"
+        },
+        {
+          "metric": "People impacted",
+          "value": "100 million",
+          "pillar": "S"
+        },
+        {
+          "metric": "People impacted",
+          "value": "9 million",
+          "pillar": "S"
+        },
+        {
+          "metric": "People impacted",
+          "value": "1 million",
+          "pillar": "S"
+        },
+        {
+          "metric": "People impacted",
+          "value": "3 million",
+          "pillar": "S"
+        },
+        {
+          "metric": "People impacted",
+          "value": "675 million",
+          "pillar": "S"
+        },
+        {
+          "metric": "People impacted",
+          "value": "560 million",
+          "pillar": "S"
+        },
+        {
+          "metric": "Women representation",
+          "value": "0%",
+          "pillar": "S"
+        },
+        {
+          "metric": "tCO2 figure",
+          "value": "8",
+          "pillar": "E"
+        }
+      ],
+      "doc_stats": {
+        "characters": 1054661,
+        "words": 157514
+      }
+    }
+  ],
+  "peers": [
+    {
+      "company": "Schneider Electric",
+      "specificity": 92,
+      "quantification": 94,
+      "assurance": 90,
+      "forward_looking": 95,
+      "balance": 58
+    },
+    {
+      "company": "Siemens",
+      "specificity": 85,
+      "quantification": 88,
+      "assurance": 86,
+      "forward_looking": 82,
+      "balance": 62
+    },
+    {
+      "company": "ABB",
+      "specificity": 78,
+      "quantification": 80,
+      "assurance": 75,
+      "forward_looking": 78,
+      "balance": 55
+    },
+    {
+      "company": "Eaton",
+      "specificity": 72,
+      "quantification": 74,
+      "assurance": 68,
+      "forward_looking": 70,
+      "balance": 52
+    },
+    {
+      "company": "Honeywell",
+      "specificity": 70,
+      "quantification": 72,
+      "assurance": 65,
+      "forward_looking": 68,
+      "balance": 48
+    }
+  ],
+  "source": "Schneider Electric Sustainable Development Reports 2020-2023 (deterministic NLP)"
+}
