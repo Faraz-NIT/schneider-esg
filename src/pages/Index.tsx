@@ -364,17 +364,30 @@ const Index = () => {
                   <div className="text-xs font-bold uppercase tracking-[0.18em] text-primary-glow">
                     {selectedYear} composite signal
                   </div>
-                  <div className="flex items-center -space-x-1.5">
-                    {PROVIDERS.map((p) => (
-                      <span
-                        key={p}
-                        title={p}
-                        className="grid h-6 w-6 place-items-center overflow-hidden rounded-full bg-white p-0.5 ring-1 ring-white/30"
-                      >
-                        <img src={PROVIDER_LOGOS[p]} alt={`${p} logo`} className="h-full w-full object-contain" />
-                      </span>
-                    ))}
-                  </div>
+                  {activeProviders.length === 1 ? (
+                    <span
+                      title={activeProviders[0]}
+                      className="grid h-14 w-14 place-items-center overflow-hidden rounded-xl bg-white p-1.5 ring-1 ring-white/30 shadow-md"
+                    >
+                      <img
+                        src={PROVIDER_LOGOS[activeProviders[0]]}
+                        alt={`${activeProviders[0]} logo`}
+                        className="h-full w-full object-contain"
+                      />
+                    </span>
+                  ) : (
+                    <div className="flex items-center -space-x-1.5">
+                      {activeProviders.map((p) => (
+                        <span
+                          key={p}
+                          title={p}
+                          className="grid h-6 w-6 place-items-center overflow-hidden rounded-full bg-white p-0.5 ring-1 ring-white/30"
+                        >
+                          <img src={PROVIDER_LOGOS[p]} alt={`${p} logo`} className="h-full w-full object-contain" />
+                        </span>
+                      ))}
+                    </div>
+                  )}
                 </div>
                 <div className="mt-3 flex items-baseline gap-2">
                   <div className="text-6xl font-extrabold tracking-tight text-white">
