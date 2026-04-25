@@ -66,6 +66,7 @@ import { Toggle } from "@/components/ui/toggle";
 import { KpiCard } from "@/components/KpiCard";
 import { ProviderCard } from "@/components/ProviderCard";
 import { SchneiderLogo } from "@/components/SchneiderLogo";
+import mcgillLogo from "@/assets/mcgill-logo.png";
 import {
   PROVIDER_HEX,
   methodology,
@@ -181,7 +182,26 @@ const Index = () => {
       {/* Top Navigation Bar */}
       <header className="sticky top-0 z-40 border-b border-border/60 bg-background/80 backdrop-blur-xl">
         <div className="mx-auto flex max-w-[1480px] items-center justify-between gap-4 px-6 py-3.5">
-          <SchneiderLogo />
+          <div className="flex items-center gap-4">
+            <SchneiderLogo />
+            <div className="hidden h-10 w-px bg-border sm:block" />
+            <div className="hidden items-center gap-2.5 sm:flex">
+              <img
+                src={mcgillLogo}
+                alt="McGill University"
+                width={44}
+                height={44}
+                loading="lazy"
+                className="h-11 w-11 object-contain"
+              />
+              <div className="leading-tight">
+                <div className="text-[15px] font-extrabold tracking-tight">McGill University</div>
+                <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-muted-foreground">
+                  Research Partner
+                </div>
+              </div>
+            </div>
+          </div>
           <nav className="hidden items-center gap-1 md:flex">
             {[
               { label: "Overview", active: true },
