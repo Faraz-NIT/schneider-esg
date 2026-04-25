@@ -85,6 +85,14 @@ const MAX_YEAR = ALL_YEARS[ALL_YEARS.length - 1];
 
 const Index = () => {
   const [selectedYear, setSelectedYear] = useState<number>(MAX_YEAR);
+  const [activeTab, setActiveTab] = useState<string>("scores");
+
+  const goToTab = (value: string) => {
+    setActiveTab(value);
+    requestAnimationFrame(() => {
+      document.getElementById("main-tabs")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  };
   const [activeProviders, setActiveProviders] = useState<Provider[]>(PROVIDERS);
 
   const filtered = useMemo(
@@ -199,17 +207,18 @@ const Index = () => {
           </div>
           <nav className="hidden items-center gap-1 md:flex">
             {[
-              { label: "Overview", active: true },
-              { label: "Providers" },
-              { label: "Disclosures" },
-              { label: "Reports" },
+              { label: "Overview", tab: "scores" },
+              { label: "Providers", tab: "drivers" },
+              { label: "Disclosures", tab: "nlp" },
+              { label: "Reports", tab: "reports" },
             ].map((n) => (
               <Button
                 key={n.label}
                 variant="ghost"
                 size="sm"
+                onClick={() => goToTab(n.tab)}
                 className={`text-sm font-semibold ${
-                  n.active ? "bg-accent text-primary-deep" : "text-muted-foreground"
+                  activeTab === n.tab ? "bg-accent text-primary-deep" : "text-muted-foreground"
                 }`}
               >
                 {n.label}
@@ -402,8 +411,8 @@ const Index = () => {
         </section>
 
         {/* Tabs */}
-        <section className="mt-8">
-          <Tabs defaultValue="scores" className="w-full">
+        <section className="mt-8" id="main-tabs">
+          <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
             <TabsList className="h-auto w-full justify-start gap-1 rounded-xl border border-border/60 bg-card p-1 shadow-card-soft">
               {[
                 { value: "scores", label: "Provider Scores", icon: BarChart3 },
