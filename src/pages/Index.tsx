@@ -230,6 +230,63 @@ const Index = () => {
                 {n.label}
               </Button>
             ))}
+            <HoverCard openDelay={80} closeDelay={120}>
+              <HoverCardTrigger asChild>
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  className="text-sm font-semibold text-muted-foreground"
+                >
+                  Team
+                </Button>
+              </HoverCardTrigger>
+              <HoverCardContent align="end" className="w-72 p-0">
+                <div className="border-b border-border/60 px-4 py-3">
+                  <p className="text-sm font-semibold">The Team</p>
+                  <p className="text-xs text-muted-foreground">
+                    Cross-functional cohort behind the dashboard
+                  </p>
+                </div>
+                <div className="space-y-3 p-4">
+                  {[
+                    {
+                      cohort: "Finance",
+                      members: [
+                        "Franck Tchuenkam",
+                        "Agbokou Jean-Marc",
+                        "Hugo Bouvier",
+                        "Samuel Benrey",
+                      ],
+                    },
+                    {
+                      cohort: "Strategy & Consulting",
+                      members: ["Louis Marbeouf"],
+                    },
+                    {
+                      cohort: "Data Science & AI",
+                      members: ["Tianyao Zhang", "Faraz Akhtar"],
+                    },
+                  ].map((group) => (
+                    <div key={group.cohort}>
+                      <p className="mb-1.5 text-[10px] font-semibold uppercase tracking-wider text-primary">
+                        {group.cohort}
+                      </p>
+                      <ul className="space-y-1">
+                        {group.members.map((name) => (
+                          <li
+                            key={name}
+                            className="flex items-center gap-2 text-sm text-foreground"
+                          >
+                            <span className="h-1.5 w-1.5 rounded-full bg-primary/60" />
+                            {name}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  ))}
+                </div>
+              </HoverCardContent>
+            </HoverCard>
           </nav>
           <div className="flex items-center gap-2">
             <Button variant="outline" size="sm" className="font-semibold">
