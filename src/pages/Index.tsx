@@ -72,6 +72,17 @@ import NLPTab from "@/components/NLPTab";
 import ReportsTab from "@/components/ReportsTab";
 import SSITab from "@/components/SSITab";
 import { ProviderCard } from "@/components/ProviderCard";
+import msciLogo from "@/assets/providers/msci.png";
+import sustainalyticsLogo from "@/assets/providers/sustainalytics.png";
+import cdpLogo from "@/assets/providers/cdp.png";
+import snpLogo from "@/assets/providers/snp.png";
+
+const PROVIDER_LOGOS: Record<Provider, string> = {
+  MSCI: msciLogo,
+  Sustainalytics: sustainalyticsLogo,
+  CDP: cdpLogo,
+  "S&P CSA": snpLogo,
+};
 import { SchneiderLogo } from "@/components/SchneiderLogo";
 import mcgillLogo from "@/assets/mcgill-logo.png";
 import {
@@ -333,10 +344,9 @@ const Index = () => {
                         : "border-white/15 bg-white/5 text-white/40 hover:bg-white/10"
                     }`}
                   >
-                    <span
-                      className="h-2 w-2 rounded-full"
-                      style={{ background: PROVIDER_HEX[p] }}
-                    />
+                    <span className="grid h-5 w-5 place-items-center overflow-hidden rounded-sm bg-white p-0.5">
+                      <img src={PROVIDER_LOGOS[p]} alt={`${p} logo`} className="h-full w-full object-contain" />
+                    </span>
                     {p}
                   </button>
                 ))}
