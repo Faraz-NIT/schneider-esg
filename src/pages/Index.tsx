@@ -185,22 +185,13 @@ const Index = () => {
           <div className="flex items-center gap-4">
             <SchneiderLogo />
             <div className="hidden h-10 w-px bg-border sm:block" />
-            <div className="hidden items-center gap-2.5 sm:flex">
-              <img
-                src={mcgillLogo}
-                alt="McGill University"
-                width={44}
-                height={44}
-                loading="lazy"
-                className="h-11 w-11 object-contain"
-              />
-              <div className="leading-tight">
-                <div className="text-[15px] font-extrabold tracking-tight">McGill University</div>
-                <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-muted-foreground">
-                  Research Partner
-                </div>
-              </div>
-            </div>
+            <img
+              src={mcgillLogo}
+              alt="McGill University"
+              height={40}
+              loading="lazy"
+              className="hidden h-10 w-auto object-contain sm:block"
+            />
           </div>
           <nav className="hidden items-center gap-1 md:flex">
             {[
