@@ -383,7 +383,7 @@ export const NLPTab = () => {
             <input
               ref={fileRef}
               type="file"
-              accept=".txt,.md,text/*"
+              accept=".pdf,.txt,.md,application/pdf,text/*"
               className="hidden"
               onChange={(e) => {
                 const f = e.target.files?.[0];
