@@ -1,5 +1,16 @@
 import { ArrowUpRight, ArrowDownRight, Minus } from "lucide-react";
 import { PROVIDER_HEX, type Provider } from "@/data/esgData";
+import msciLogo from "@/assets/providers/msci.png";
+import sustainalyticsLogo from "@/assets/providers/sustainalytics.png";
+import cdpLogo from "@/assets/providers/cdp.png";
+import snpLogo from "@/assets/providers/snp.png";
+
+const PROVIDER_LOGOS: Record<Provider, string> = {
+  MSCI: msciLogo,
+  Sustainalytics: sustainalyticsLogo,
+  CDP: cdpLogo,
+  "S&P CSA": snpLogo,
+};
 
 interface ProviderCardProps {
   provider: Provider;
@@ -31,11 +42,18 @@ export const ProviderCard = ({
       />
       <div className="flex items-center justify-between gap-3">
         <div className="flex items-center gap-3">
-          <div
-            className="grid h-10 w-10 place-items-center rounded-lg text-sm font-extrabold text-white shadow-sm"
-            style={{ background: color }}
-          >
-            {rank}
+          <div className="relative grid h-10 w-10 place-items-center rounded-lg bg-white p-1 shadow-sm ring-1 ring-border/60">
+            <img
+              src={PROVIDER_LOGOS[provider]}
+              alt={`${provider} logo`}
+              className="h-full w-full object-contain"
+            />
+            <div
+              className="absolute -bottom-1 -right-1 grid h-4 w-4 place-items-center rounded-full text-[10px] font-extrabold text-white shadow"
+              style={{ background: color }}
+            >
+              {rank}
+            </div>
           </div>
           <div>
             <div className="text-sm font-extrabold text-foreground">{provider}</div>
