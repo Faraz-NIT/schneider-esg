@@ -212,7 +212,7 @@ const Index = () => {
             {[
               { label: "Overview", tab: "scores" },
               { label: "Providers", tab: "drivers" },
-              { label: "Disclosures", tab: "nlp" },
+              { label: "NLP Insights", tab: "nlp" },
               { label: "Reports", tab: "reports" },
             ].map((n) => (
               <Button
@@ -229,16 +229,8 @@ const Index = () => {
             ))}
           </nav>
           <div className="flex items-center gap-2">
-            <Badge variant="outline" className="hidden gap-1.5 border-primary/30 bg-primary/5 font-semibold text-primary-deep sm:inline-flex">
-              <span className="h-1.5 w-1.5 rounded-full bg-primary animate-pulse" />
-              Live data
-            </Badge>
             <Button variant="outline" size="sm" className="font-semibold">
               Export
-            </Button>
-            <Button size="sm" className="bg-primary font-semibold text-primary-foreground hover:bg-primary/90">
-              <Sparkles className="mr-1.5 h-3.5 w-3.5" />
-              Insights
             </Button>
           </div>
         </div>
