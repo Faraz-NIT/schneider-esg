@@ -367,7 +367,7 @@ const Index = () => {
                   {activeProviders.length === 1 ? (
                     <span
                       title={activeProviders[0]}
-                      className="grid h-14 w-14 place-items-center overflow-hidden rounded-xl bg-white p-1.5 ring-1 ring-white/30 shadow-md"
+                      className="grid h-24 w-24 place-items-center overflow-hidden rounded-xl bg-white p-2.5 ring-1 ring-white/30 shadow-md md:h-28 md:w-28"
                     >
                       <img
                         src={PROVIDER_LOGOS[activeProviders[0]]}
