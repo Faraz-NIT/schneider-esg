@@ -756,6 +756,11 @@ const Index = () => {
               </Card>
             </TabsContent>
 
+            {/* === NLP TAB === */}
+            <TabsContent value="nlp" className="mt-6">
+              <NLPTab />
+            </TabsContent>
+
             {/* === DATA NOTES TAB === */}
             <TabsContent value="data" className="mt-6 space-y-6">
               <Card className="border-border/60 p-6 shadow-card-soft">
