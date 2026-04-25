@@ -57,6 +57,20 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        provider: {
+          msci: "hsl(var(--provider-msci))",
+          sustainalytics: "hsl(var(--provider-sustainalytics))",
+          cdp: "hsl(var(--provider-cdp))",
+          snp: "hsl(var(--provider-snp))",
+        },
+        warning: "hsl(var(--warning))",
+        info: "hsl(var(--info))",
+        "primary-glow": "hsl(var(--primary-glow))",
+        "primary-deep": "hsl(var(--primary-deep))",
+      },
+      fontFamily: {
+        sans: ["Inter", "system-ui", "sans-serif"],
+        display: ["Inter", "system-ui", "sans-serif"],
       },
       borderRadius: {
         lg: "var(--radius)",
