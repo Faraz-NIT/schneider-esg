@@ -305,19 +305,49 @@ export const NLPTab = () => {
     }
   };
 
+  const extractPdfText = async (file: File): Promise<string> => {
+    const pdfjs: any = await import("pdfjs-dist");
+    // Use the worker from the same package via Vite's ?url import
+    const workerUrl = (await import("pdfjs-dist/build/pdf.worker.min.mjs?url")).default;
+    pdfjs.GlobalWorkerOptions.workerSrc = workerUrl;
+    const buf = await file.arrayBuffer();
+    const pdf = await pdfjs.getDocument({ data: buf }).promise;
+    const parts: string[] = [];
+    const maxPages = Math.min(pdf.numPages, 200);
+    for (let i = 1; i <= maxPages; i++) {
+      const page = await pdf.getPage(i);
+      const content = await page.getTextContent();
+      parts.push(content.items.map((it: any) => it.str).join(" "));
+      if (parts.join(" ").length > 80_000) break; // keep token usage sane
+    }
+    return parts.join("\n\n");
+  };
+
+  const yearFromName = (name: string) => {
+    const m = name.match(/(20\d{2})/);
+    return m ? parseInt(m[1], 10) : new Date().getFullYear();
+  };
+
   const handleFile = async (file: File) => {
-    if (file.size > 4_000_000) {
-      toast.error("File too large (max 4 MB of extracted text). Paste relevant excerpts instead.");
+    if (file.size > 25_000_000) {
+      toast.error("File too large (max 25 MB).");
       return;
     }
+    const isPdf = file.type === "application/pdf" || /\.pdf$/i.test(file.name);
     const isText = file.type.startsWith("text/") || /\.(txt|md|csv)$/i.test(file.name);
-    if (!isText) {
-      toast.error("Only .txt / .md files supported in-browser. For PDFs, copy text and use Paste.");
+    if (!isPdf && !isText) {
+      toast.error("Upload a .pdf, .txt or .md file.");
       return;
     }
-    const text = await file.text();
-    const year = new Date().getFullYear();
-    await analyzeText(text, file.name, year);
+    setLoading(true);
+    try {
+      const text = isPdf ? await extractPdfText(file) : await file.text();
+      const year = yearFromName(file.name);
+      await analyzeText(text, file.name, year);
+    } catch (e: any) {
+      toast.error(e?.message ?? "Failed to read file");
+      setLoading(false);
+    }
   };
 
   return (
@@ -353,7 +383,7 @@ export const NLPTab = () => {
             <input
               ref={fileRef}
               type="file"
-              accept=".txt,.md,text/*"
+              accept=".pdf,.txt,.md,application/pdf,text/*"
               className="hidden"
               onChange={(e) => {
                 const f = e.target.files?.[0];
