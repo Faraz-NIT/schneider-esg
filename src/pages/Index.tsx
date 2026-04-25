@@ -360,8 +360,21 @@ const Index = () => {
             {/* Hero stat panel */}
             <div className="relative w-full lg:w-[340px]">
               <div className="rounded-2xl border border-white/15 bg-white/5 p-6 backdrop-blur-md">
-                <div className="text-xs font-bold uppercase tracking-[0.18em] text-primary-glow">
-                  {selectedYear} composite signal
+                <div className="flex items-center justify-between gap-3">
+                  <div className="text-xs font-bold uppercase tracking-[0.18em] text-primary-glow">
+                    {selectedYear} composite signal
+                  </div>
+                  <div className="flex items-center -space-x-1.5">
+                    {PROVIDERS.map((p) => (
+                      <span
+                        key={p}
+                        title={p}
+                        className="grid h-6 w-6 place-items-center overflow-hidden rounded-full bg-white p-0.5 ring-1 ring-white/30"
+                      >
+                        <img src={PROVIDER_LOGOS[p]} alt={`${p} logo`} className="h-full w-full object-contain" />
+                      </span>
+                    ))}
+                  </div>
                 </div>
                 <div className="mt-3 flex items-baseline gap-2">
                   <div className="text-6xl font-extrabold tracking-tight text-white">
