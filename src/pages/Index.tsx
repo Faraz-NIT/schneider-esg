@@ -260,7 +260,7 @@ const Index = () => {
                     },
                     {
                       cohort: "Strategy & Consulting",
-                      members: ["Louis Marbeouf"],
+                      members: ["Louis Marboeuf"],
                     },
                     {
                       cohort: "Data Science & AI",
