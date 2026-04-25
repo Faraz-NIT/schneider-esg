@@ -7,6 +7,7 @@ import {
   Brain,
   ChevronDown,
   Database,
+  FileText,
   Gauge,
   Info,
   Layers,
