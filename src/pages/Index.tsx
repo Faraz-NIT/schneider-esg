@@ -89,9 +89,12 @@ const Index = () => {
 
   const goToTab = (value: string) => {
     setActiveTab(value);
-    requestAnimationFrame(() => {
-      document.getElementById("main-tabs")?.scrollIntoView({ behavior: "smooth", block: "start" });
-    });
+    setTimeout(() => {
+      const el = document.getElementById("main-tabs");
+      if (!el) return;
+      const top = el.getBoundingClientRect().top + window.scrollY - 80;
+      window.scrollTo({ top, behavior: "smooth" });
+    }, 50);
   };
   const [activeProviders, setActiveProviders] = useState<Provider[]>(PROVIDERS);
 
